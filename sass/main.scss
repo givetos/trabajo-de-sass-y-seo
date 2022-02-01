@@ -1,18 +1,6 @@
 @import "global";
 
-.logo{
-    width:150px;
-    height:100px;
-}
 
-header{
-    position: fixed;
-    top: 0;
-    border-top: 30px solid black;
-    width: 100%;
-    background-color: khaki;
-    
-}
 .wrapper{
     background-color: white;
     padding-top: 100px;
@@ -21,11 +9,7 @@ header{
 
 }
 
-.presentacion{
-    padding-left: 80px;
-    padding: auto;
-    color: black;
-}
+
 
 /* ejemplo de nesting */
 

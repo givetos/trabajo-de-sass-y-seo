@@ -2,48 +2,24 @@
 
 /* globales */
 
-
-html{
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
-
-*, *::before, *::after{
-    box-sizing: inherit;
-}
-
 body{
-    margin: 0%;
-    padding: 0%;
-    line-height: 1.6%;
-    font-family: "Noto Sans JP", sans-serif;
-    
+    font-family: "Monserrat" sans-serif;
+    overflow-x: hidden;
 }
 
-ul{
-    list-style: none;
-}
+/* menu */
 
-a{
-    text-decoration: none;
-    display: inline-block;
+#menu li a{
+    font-size: 18px;
+    font-weight: bold;
     color: black;
+}
+#menu form button{
+    font-size: 18px;
+    font-weight: bold;
 
 }
 
-img{
-    width: 80%;
-    height: 80%;
-}
-
-nav, .servicios, .presentacion, .footer-content{
-    width: 80%;
-    margin: auto;
-}
-
-.titulo-servicio, .presentacion{
-    margin-bottom: 10%;
-}
 
 /* variables */
 
